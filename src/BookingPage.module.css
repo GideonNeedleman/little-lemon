@@ -1,0 +1,36 @@
+.intro_container {
+  background-color: #495E57;
+  text-align: left;
+}
+
+.intro_content {
+  max-width: 1500px;
+  margin:auto;
+  padding: 3rem 0;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.intro_image {
+  max-width: 20rem;
+  border-radius: 1rem;
+}
+
+.intro_content h1 {
+  color: #F4CE14;
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.intro_content p {
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 20rem;
+  line-height: 1.5rem;
+}

@@ -1,0 +1,43 @@
+.testimonial_card {
+  width: 12rem;
+  height: 11rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.name {
+  color: #000;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.middle_row {
+  display: flex;
+  margin: .5rem 0;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image {
+  width:50%;
+  border-radius: 50%;
+}
+
+.rating {
+  height: 1rem;
+}
+
+.review {
+  color: #000;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}

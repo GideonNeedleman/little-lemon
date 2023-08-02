@@ -1,0 +1,49 @@
+.section {
+  margin: 2rem;
+  text-align: center;
+}
+
+.head1 {
+  color: #000;
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.head2 {
+  color: #000;
+  font-family: 'Karla', sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.content {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.image {
+  height: 8rem;
+  border-radius: 1rem;
+}
+
+.table {
+  text-align: left;
+}
+
+.table td {
+  padding: 0.2rem;
+  font-family: 'karla', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}

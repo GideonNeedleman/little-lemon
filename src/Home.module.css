@@ -1,0 +1,173 @@
+.hero {
+  background-color: #495E57;
+}
+
+.hero_image {
+  width: 15rem;
+  border-radius: 1rem;
+  position: relative;
+  top: 2rem;
+}
+
+.hero_container {
+  text-align: left;
+  display:flex;
+  justify-content: space-evenly;
+  margin:auto;
+  max-width: 1500px;
+}
+
+.content {
+  padding: 2rem 0;
+}
+
+.hero_container h1 {
+  color: #F4CE14;
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero_container h2 {
+  color: #FFF;
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
+.hero_container p {
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 20rem;
+  line-height: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.button_yellow {
+  background-color: #F4CE14;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  font-size:1.2rem;
+  cursor: pointer;
+}
+
+section button:hover {
+  background-color: #EE9972;
+  transition: background-color 200ms;
+}
+
+.specials_head {
+  display:flex;
+  max-width: 1500px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem auto 2rem auto;
+}
+
+.specials h1 {
+  color: #000;
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+}
+
+.dishcards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.testimonials {
+  background-color: #495E57;
+  padding: 2rem 0 4rem 0;
+  margin-top: 4rem;
+}
+
+.testimonials h1 {
+  color: #fff;
+  text-align: center;
+  /* Display Title */
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.testimonial_row {
+  display:flex;
+  align-items: center;
+  max-width: 1500px;
+  margin:auto;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.about {
+  text-align: left;
+  display:flex;
+  justify-content: space-evenly;
+  margin:auto;
+  max-width: 1500px;
+  padding: 2rem 0;
+}
+
+.about h1 {
+  color: #495E57;
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.about h2 {
+  color: #000;
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
+.about p {
+  color: #000;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 25rem;
+  line-height: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.about_image1 {
+  width: 15rem;
+  border-radius: 1rem;
+  position: relative;
+  top: 4rem;
+  right: -4rem;
+}
+
+.about_image2 {
+  width: 15rem;
+  border-radius: 1rem;
+/*   position: relative;
+  top: 2rem; */
+}
